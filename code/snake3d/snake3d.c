@@ -178,7 +178,7 @@ void minigame_init(void)
   modelShadow = t3d_model_load("rom:/snake3d/shadow.t3dm");
 
   // Model Credits: Quaternius (CC0) https://quaternius.com/packs/easyenemy.html
-  model = t3d_model_load("rom:/snake3d/snake.t3dm");
+  model = t3d_model_load("rom:/snake3d/cube.t3dm");
 
   rspq_block_begin();
     t3d_matrix_push(mapMatFP);
